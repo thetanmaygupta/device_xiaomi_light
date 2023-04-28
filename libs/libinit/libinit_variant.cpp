@@ -16,7 +16,6 @@ using android::base::GetProperty;
 #define SKU_PROP "ro.boot.product.hardware.sku"
 #define HW_SKU_PROP "ro.boot.hardware.sku"
 #define HWV_PROP "ro.boot.hwversion"
-#define PRODC_PROP "ro.product.cert"
 
 void search_variant(const std::vector<variant_info_t> variants) {
     std::string bid_value = GetProperty(BID_PROP, "");
@@ -55,7 +54,7 @@ void set_variant_props(const variant_info_t variant) {
 
     // Set hardware revision
     property_override("ro.boot.hardware.revision", GetProperty(HWV_PROP, ""));
-    property_override(PRODC_PROP, "22041219PI");
+    property_override("ro.product.cert", variant.model);
     // Set custom properties
     property_override("ro.product.wt.boardid", GetProperty(BID_PROP, ""));
     property_override("ro.product.subproject", GetProperty(BID_PROP, ""));
