@@ -2039,11 +2039,7 @@ vendor/firmware/txpowerctrl.cfg
 vendor/firmware/wifi.cfg
 
 # GPS
-vendor/bin/hw/android.hardware.gnss-service.mediatek
-vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/lib/hw/gps.default.so
-vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
-vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 
 # Gatekeeper
@@ -2462,8 +2458,6 @@ vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 
 # Vintf
--vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mediatek.xml
--vendor/etc/vintf/manifest/gnss@2.1-service.xml
 -vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 -vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 
