@@ -26,4 +26,14 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := light
 
 # Build info
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_PRODUCT=redfin \
+    PRIVATE_BUILD_DESC="redfin-user 13 TQ2A.230505.002 9891397 release-keys"
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Set BUILD_FINGERPRINT variable to be picked up by bot>
+BUILD_FINGERPRINT := google/redfin/redfin:13/TQ2A.23050>
+
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.build.fingerprint=$(BUILD_FINGERPRINT)

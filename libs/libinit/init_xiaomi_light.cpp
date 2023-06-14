@@ -16,7 +16,7 @@ static const variant_info_t light_info = {
     .name = "light",
     .marketname = "Redmi Note 11R",
     .model = "22095RA98C",
-    .build_fingerprint = "POCO/light/light:12/SP1A.210812.016/V13.0.6.0.SLSINXM:user/release-keys",
+    .build_fingerprint = "google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys",
 
     .nfc = true,
 };
@@ -28,7 +28,7 @@ static const variant_info_t light_in_p_info = {
     .name = "light_p_in",
     .marketname = "POCO M4 5G",
     .model = "22041219PI",
-    .build_fingerprint = "POCO/light_p_in/light:12/SP1A.210812.016/V13.0.6.0.SLSINXM:user/release-keys",
+    .build_fingerprint = "google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys",
 
     .nfc = true,
 };
@@ -40,7 +40,7 @@ static const variant_info_t light_cn_info = {
     .name = "light_cn",
     .marketname = "Redmi Note 11E",
     .model = "22041219C",
-    .build_fingerprint = "POCO/light_cn/light:12/SP1A.210812.016/V13.0.6.0.SLSINXM:user/release-keys",
+    .build_fingerprint = "google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys",
 
     .nfc = true,
 };
@@ -52,8 +52,8 @@ static const variant_info_t light_in_info = {
 	.name = "light_in",
 	.marketname = "Redmi 11 Prime 5G",
 	.model= "22041219PI",
-	.build_fingerprint = "POCO/light_in/light:12/SP1A.210812.016/V13.0.11.0.SLSINXM:user/release-keys",
-	
+	.build_fingerprint = "google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys",
+
 	.nfc = true,
 };
 
@@ -64,8 +64,8 @@ static const variant_info_t light_global_info = {
 	.name = "light_global",
 	.marketname = "Redmi 10 5G",
 	.model= "22041219G",
-	.build_fingerprint = "POCO/light_global/light:12/SP1A.210812.016/V13.0.11.0.SLSINXM:user/release-keys",
-	
+	.build_fingerprint = "google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys",
+
 	.nfc = true,
 };
 
@@ -76,8 +76,8 @@ static const variant_info_t thunder_global_info = {
 	.name = "thunder_global",
 	.marketname = "Redmi 10 5G",
 	.model = "22041219NY",
-	.build_fingerprint = "POCO/thunder_global/light:12/SP1A.210812.016/V13.0.11.0.SLSCNXM:user/release-keys",
-	
+	.build_fingerprint = "google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys",
+
 	.nfc = true,
 };
 
@@ -88,8 +88,8 @@ static const variant_info_t thunder_p_global_info = {
 	.name = "thunder_p_global",
 	.marketname = "POCO M4 5G",
 	.model = "22041219PG",
-	.build_fingerprint = "POCO/thunder_p_global/light:12/SP1A.210812.016/V13.0.11.0.SLSCNXM:user/release-keys",
-	
+	.build_fingerprint = "google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys",
+
 	.nfc = true,
 };
 
@@ -100,8 +100,8 @@ static const variant_info_t thunder_eea_info = {
 	.name = "thunder_eea",
 	.marketname = "POCO M4 5G Global",
 	.model = "22041219NY",
-	.build_fingerprint = "POCO/thunder_eea/light:12/SP1A.210812.016/V13.0.11.0.SLSCNXM:user/release-keys",
-	
+	.build_fingerprint = "google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys",
+
 	.nfc = true,
 };
 
